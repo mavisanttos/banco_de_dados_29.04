@@ -1,15 +1,14 @@
 # Banco de Dados
 *Exercício realizado em sala sobre Banco de Dados (Módulo 2 - 29/04/2025)* <br>
 
-
-CREATE TABLE alunos (
-  id SERIAL PRIMARY KEY,
-  nome TEXT NOT NULL,
-  turma TEXT NOT NULL,
-  curso TEXT NOT NULL,
-  data_nascimento DATE
-);
-
+CREATE TABLE alunos ( <br>
+  id SERIAL PRIMARY KEY, <br>
+  nome TEXT NOT NULL, <br>
+  turma TEXT NOT NULL, <br>
+  curso TEXT NOT NULL, <br>
+  data_nascimento DATE <br>
+); <br>
+<br>
 CREATE TABLE cursos (
   id SERIAL PRIMARY KEY,
   nome TEXT NOT NULL,
